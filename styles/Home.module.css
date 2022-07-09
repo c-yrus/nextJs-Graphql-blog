@@ -12,6 +12,13 @@
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-gap: 3rem;
 }
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Brand";
+  padding: 1rem 0rem;
+}
 
 @media screen and (max-width: 768px) {
   .main {
